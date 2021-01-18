@@ -16,7 +16,7 @@
 
 ### 0x00 前言
 1. 第一部分是关于CobaltStrike优质文章的集合
-2. 关于新特性BOF资源的整合
+2. 第三部分是关于新特性BOF资源的整合
 3. 解决要用的时候找不到合适aggressor script或者BOF的问题
 4. 如果有本repo没有涉及的优质内容，欢迎大家提交pr
 
@@ -30,6 +30,7 @@
 5. [Cobalt Strike 外部 C2【一、原理篇】](http://blog.leanote.com/post/snowming/50448511de58)
 6. [Cobalt Strike 桌面控制问题的解决（以及屏幕截图等后渗透工具）](http://blog.leanote.com/post/snowming/32fabf2deae1)
 7. [Cobalt Strike & MetaSploit 联动](http://blog.leanote.com/post/snowming/43cef4b64cbd)
+8. [Cobalt-Strike-CheatSheet](https://github.com/S1ckB0y1337/Cobalt-Strike-CheatSheet)
 
 #### 2. 破解以及定制参考
 1. [IntelliJ-IDEA修改cobaltstrike](https://pingmaoer.github.io/2020/06/08/IntelliJ-IDEA修改cobaltstrike/)
@@ -38,6 +39,10 @@
 4. [通过反射DLL注入来构建后渗透模块（第一课）](https://payloads.online/archivers/2020-03-02/1)
 5. [Cobalt Strike Aggressor Script （第一课）](https://payloads.online/archivers/2020-03-02/4)
 6. [Cobalt Strike Aggressor Script （第二课）](https://payloads.online/archivers/2020-03-02/5)
+7. [Implementing Syscalls In The Cobaltstrike Artifact Kit](https://br-sn.github.io/Implementing-Syscalls-In-The-CobaltStrike-Artifact-Kit/)
+8. [Cobalt Strike 4.0 认证及修补过程](https://xz.aliyun.com/t/8557)
+9. [使用ReflectiveDLLInjection武装你的CobaltStrike](https://mp.weixin.qq.com/s/-Inh6uWV9YCz0zQYfitceA)
+10. [Bypass cobaltstrike beacon config scan](https://mp.weixin.qq.com/s/fhcTTWV4Ddz4h9KxHVRcnw)
 
 #### 3. 使用技巧参考
 1. [Cobalt Strike Spear Phish](https://evi1cg.me/archives/spear_phish.html)
@@ -56,6 +61,9 @@
 14. [一起探索Cobalt Strike的ExternalC2框架](https://www.anquanke.com/post/id/103395/)
 15. [深入探索Cobalt Strike的ExternalC2框架](https://xz.aliyun.com/t/2239)
 16. [Cobalt Strike的特殊功能（external_C2）探究](https://www.anquanke.com/post/id/86980/)
+17. [A tale of .NET assemblies, cobalt strike size constraints, and reflection](https://redteamer.tips/a-tale-of-net-assemblies-cobalt-strike-size-constraints-and-reflection/)
+18. [AppDomain.AssemblyResolve](https://offensivedefence.co.uk/posts/assembly-resolve/)
+19. [从webshell建立代理上线不出网的内网机器](https://mp.weixin.qq.com/s/mNCROss5pa4rkrWIIfjVfQ)
 
 #### 4. CobaltStrike隐匿参考
 1. [CobaltStrike证书修改躲避流量审查](https://mp.weixin.qq.com/s/sYfvD0XQqi6BFw70_jrv5Q)
@@ -67,6 +75,9 @@
 7. [A Brave New World: Malleable C2](http://www.harmj0y.net/blog/redteaming/a-brave-new-world-malleable-c2/)
 8. [How to Write Malleable C2 Profiles for Cobalt Strike](https://bluescreenofjeff.com/2017-01-24-how-to-write-malleable-c2-profiles-for-cobalt-strike/)
 9. [Randomized Malleable C2 Profiles Made Easy](https://bluescreenofjeff.com/2017-08-30-randomized-malleable-c2-profiles-made-easy/)
+10. [关于CobaltStrike的Stager被扫问题](https://mp.weixin.qq.com/s/0MPM3bysJJYr5jbRnES_Vg)
+11. [Beacon Stager listener 去特征](https://mp.weixin.qq.com/s/HibtLfikI_0ezcLVCRxqaA)
+12. [检测与隐藏Cobaltstrike服务器](https://hosch3n.github.io/2020/12/16/%E6%A3%80%E6%B5%8B%E4%B8%8E%E9%9A%90%E8%97%8FCobaltstrike%E6%9C%8D%E5%8A%A1%E5%99%A8/)
 
 #### 5. CobaltStrike分析参考
 1. Volatility Plugin for Detecting Cobalt Strike Beacon. [blog](https://blogs.jpcert.or.jp/en/2018/08/volatility-plugin-for-detecting-cobalt-strike-beacon.html)|[Toolset](https://github.com/RomanEmelyanov/CobaltStrikeForensic)
@@ -74,6 +85,11 @@
 3. [分析cobaltstrike c2 协议](https://github.com/verctor/Cobalt_Homework)
 4. Small [tool](https://github.com/Mkv4/cobaltstrike-authfile-decrypt) to decrypt a Cobalt Strike auth file
 5. [Cobalt Strike 的 ExternalC2](https://xz.aliyun.com/t/6565)
+6. [Detecting Cobalt Strike Default Modules via Named Pipe Analysis](https://labs.f-secure.com/blog/detecting-cobalt-strike-default-modules-via-named-pipe-analysis/)
+7. [浅析CobaltStrike Beacon Staging Server扫描](https://mp.weixin.qq.com/s/WUf96myUi8F3X_eNWPRTdw)
+8. [Striking Back at Retired Cobalt Strike: A look at a legacy vulnerability](https://research.nccgroup.com/2020/06/15/striking-back-at-retired-cobalt-strike-a-look-at-a-legacy-vulnerability/)
+9. [Analyzing Cobalt Strike for Fun and Profit](https://www.randhome.io/blog/2020/12/20/analyzing-cobalt-strike-for-fun-and-profit/)
+10. [Defences against Cobalt Strike sources](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence)
 
 ### 0x02 C2 Profiles
 
@@ -96,8 +112,13 @@
 |  ALL   |   [cobaltstrike_bofs](https://github.com/m57/cobaltstrike_bofs)  |   BOF spawns a process of your choice under a specified parent, and injects a provided shellcode file via QueueUserAPC().  |  ![](https://img.shields.io/github/stars/m57/cobaltstrike_bofs)   | ![](https://img.shields.io/github/languages/top/m57/cobaltstrike_bofs)     |
 |  ALL   |   [BOF-RegSave](https://github.com/EncodeGroup/BOF-RegSave)  |   Beacon Object File(BOF) for CobaltStrike that will acquire the necessary privileges and dump SAM - SYSTEM - SECURITY registry keys for offline parsing and hash extraction.  |  ![](https://img.shields.io/github/stars/EncodeGroup/BOF-RegSave)   | ![](https://img.shields.io/github/languages/top/EncodeGroup/BOF-RegSave)     |
 |  ALL   |   [CobaltStrike BOF](https://github.com/Yaxser/CobaltStrike-BOF)  |   DCOM Lateral Movement; WMI Lateral Movement - Win32_Process Create; WMI Lateral Movement - Event Subscription  |  ![](https://img.shields.io/github/stars/Yaxser/CobaltStrike-BOF)   | ![](https://img.shields.io/github/languages/top/Yaxser/CobaltStrike-BOF)     |
+|  ALL   |   [BOFs](https://github.com/ajpc500/BOFs)  |   ETW Patching; API Function Utility; Syscalls Shellcode Injection  |  ![](https://img.shields.io/github/stars/ajpc500/BOFs)   | ![](https://img.shields.io/github/languages/top/ajpc500/BOFs)     |
 |  Dev   |   [bof](https://github.com/nccgroup/nccfsas/blob/main/Tools/bof-vs-template/README.md)  |   This is a template project for building Cobalt Strike BOFs in Visual Studio.  |  ![](https://img.shields.io/github/stars/nccgroup/nccfsas)   | ![](https://img.shields.io/github/languages/top/nccgroup/nccfsas)     |
 |  Dev   |   [BOF.NET](https://github.com/CCob/BOF.NET)  |   A .NET Runtime for Cobalt Strike's Beacon Object Files.  |  ![](https://img.shields.io/github/stars/CCob/BOF.NET)   | ![](https://img.shields.io/github/languages/top/CCob/BOF.NET)     |
+|  Dev   |   [beacon-object-file](https://github.com/realoriginal/beacon-object-file)  |   The format, described by Mudge [here](https://youtube.com/watch?v=gfYswA_Ronw), asks that the operator construct an COFF file using a mingw-w64 compiler or the msvc compiler that holds an symbol name indicating its entrypoint, and underlying function calls.  |  ![](https://img.shields.io/github/stars/realoriginal/beacon-object-file)   | ![](https://img.shields.io/github/languages/top/realoriginal/beacon-object-file)     |
+|  Dev   |   [InlineWhispers](https://github.com/outflanknl/InlineWhispers)  |   Demonstrate the ability to easily use syscalls using inline assembly in BOFs.  |  ![](https://img.shields.io/github/stars/outflanknl/InlineWhispers)   | ![](https://img.shields.io/github/languages/top/outflanknl/InlineWhispers)     |
+|  Dev   |   [WdToggle](https://github.com/outflanknl/WdToggle)  |   A Proof of Concept Cobalt Strike Beacon Object File which uses direct system calls to enable WDigest credential caching and circumvent Credential Guard (if enabled).  |  ![](https://img.shields.io/github/stars/outflanknl/WdToggle)   | ![](https://img.shields.io/github/languages/top/outflanknl/WdToggle)     |
+|  Dev   |   [Situational Awareness BOF](https://github.com/trustedsec/CS-Situational-Awareness-BOF)  |   This Repo intends to serve two purposes. First it provides a nice set of basic situational awareness commands implemented in BOF. This allows you to perform some checks on a host before you begin executing commands that may be more invasive.  |  ![](https://img.shields.io/github/stars/trustedsec/CS-Situational-Awareness-BOF)   | ![](https://img.shields.io/github/languages/top/trustedsec/CS-Situational-Awareness-BOF)     |
 |  Exploit   |   [CVE-2020-0796-BOF](https://github.com/rsmudge/CVE-2020-0796-BOF)  |   SMBGhost LPE  |  ![](https://img.shields.io/github/stars/rsmudge/CVE-2020-0796-BOF)   | ![](https://img.shields.io/github/languages/top/rsmudge/CVE-2020-0796-BOF)     |
 |  Exploit   |   [ZeroLogon-BOF](https://github.com/rsmudge/ZeroLogon-BOF)  |   ZeroLogon  |  ![](https://img.shields.io/github/stars/rsmudge/ZeroLogon-BOF)   | ![](https://img.shields.io/github/languages/top/rsmudge/ZeroLogon-BOF)     |
 
@@ -111,6 +132,8 @@
 |  BypassAV   |   [beacon-c2-go](https://github.com/wahyuhadi/beacon-c2-go)  |   beacon-c2-go (Cobaltstrike/Metasploit)  |  ![](https://img.shields.io/github/stars/wahyuhadi/beacon-c2-go)   | ![](https://img.shields.io/github/languages/top/wahyuhadi/beacon-c2-go)  |
 |  BypassAV   |   [C--Shellcode](https://github.com/OneHone/C--Shellcode)  |   python ShellCode Loader (Cobaltstrike&Metasploit)  [Useage](http://hone.cool/2019/11/26/%E5%85%8D%E6%9D%80-C-Shellcode%E5%8A%A0%E8%BD%BD%E5%99%A8/) |  ![](https://img.shields.io/github/stars/OneHone/C--Shellcode)   | ![](https://img.shields.io/github/languages/top/OneHone/C--Shellcode)  |
 |  BypassAV   |   [Doge-Loader](https://github.com/timwhitez/Doge-Loader)  |   Cobalt Strike Shellcode Loader by Golang |  ![](https://img.shields.io/github/stars/timwhitez/Doge-Loader)   | ![](https://img.shields.io/github/languages/top/timwhitez/Doge-Loader)  |
+|  BypassAV   |   [CS-Loader](https://github.com/Gality369/CS-Loader)  |   CS免杀,包括python版和C版本的 |  ![](https://img.shields.io/github/stars/Gality369/CS-Loader)   | ![](https://img.shields.io/github/languages/top/Gality369/CS-Loader)  |
+|  BypassAV   |   [CSSG](https://github.com/RCStep/CSSG)  |   Cobalt Strike Shellcode Generator. Generates beacon stageless shellcode with exposed exit method, additional formatting, encryption, encoding, compression, multiline output, etc |  ![](https://img.shields.io/github/stars/RCStep/CSSG)   | ![](https://img.shields.io/github/languages/top/RCStep/CSSG)  |
 |  BypassUAC   |   [UAC-SilentClean](https://github.com/EncodeGroup/UAC-SilentClean)  |   This project implements a DLL planting technique to bypass UAC Always Notify and execute code in a high integrity process. |  ![](https://img.shields.io/github/stars/EncodeGroup/UAC-SilentClean)   | ![](https://img.shields.io/github/languages/top/EncodeGroup/UAC-SilentClean)  |
 |  Recon   |   [red-team-scripts](https://github.com/threatexpress/red-team-scripts)  |   perform some rudimentary Windows host enumeration with Beacon built-in commands   |  ![](https://img.shields.io/github/stars/threatexpress/red-team-scripts)   | ![](https://img.shields.io/github/languages/top/threatexpress/red-team-scripts)     |
 |  Recon   |   [aggressor-powerview](https://github.com/tevora-threat/aggressor-powerview)  |   All functions listed in the PowerView about page are included in this with all arguments for each function. [PowerView](https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1)   |  ![](https://img.shields.io/github/stars/tevora-threat/aggressor-powerview)   | ![](https://img.shields.io/github/languages/top/tevora-threat/aggressor-powerview)     |
@@ -140,6 +163,8 @@
 |  Persistence   |   [persistence-aggressor-script](https://github.com/threatexpress/persistence-aggressor-script)  |   [Persistence Aggressor Script](https://zonksec.com/blog/persistence-aggressor-script/)   |  ![](https://img.shields.io/github/stars/threatexpress/persistence-aggressor-script)   | ![](https://img.shields.io/github/languages/top/threatexpress/persistence-aggressor-script)     |
 |  Persistence   |   [AggressiveGadgetToJScript](https://github.com/EncodeGroup/AggressiveGadgetToJScript)  |   Automate the generation of payloads using the GadgetToJScript technique.   |  ![](https://img.shields.io/github/stars/EncodeGroup/AggressiveGadgetToJScript)   | ![](https://img.shields.io/github/languages/top/EncodeGroup/AggressiveGadgetToJScript)     |
 |  Auxiliary   |   [Cobaltstrike-atexec](https://github.com/Rvn0xsy/Cobaltstrike-atexec)  |   利用任务计划进行横向，需要与135端口、445端口进行通信    |  ![](https://img.shields.io/github/stars/Rvn0xsy/Cobaltstrike-atexec)   | ![](https://img.shields.io/github/languages/top/Rvn0xsy/Cobaltstrike-atexec)     |
+|  Auxiliary   |   [Sharp-HackBrowserData](https://github.com/S3cur3Th1sSh1t/Sharp-HackBrowserData)  |   C#的HackBrowserData工具，方便在cs中直接内存加载    |  ![](https://img.shields.io/github/stars/S3cur3Th1sSh1t/Sharp-HackBrowserData)   | ![](https://img.shields.io/github/languages/top/S3cur3Th1sSh1t/Sharp-HackBrowserData)     |
+|  Auxiliary   |   [SharpeningCobaltStrike](https://github.com/cube0x0/SharpeningCobaltStrike)  |   In realtime compiling of dotnet v35/v40 exe/dll binaries + obfuscation with ConfuserEx on your linux cobalt strike server.   |  ![](https://img.shields.io/github/stars/cube0x0/SharpeningCobaltStrike)   | ![](https://img.shields.io/github/languages/top/cube0x0/SharpeningCobaltStrike)     |
 |  Auxiliary   |   [SharpCompile](https://github.com/SpiderLabs/SharpCompile)  |   SharpCompile is an aggressor script for Cobalt Strike which allows you to compile and execute C# in realtime.    |  ![](https://img.shields.io/github/stars/SpiderLabs/SharpCompile)   | ![](https://img.shields.io/github/languages/top/SpiderLabs/SharpCompile)     |
 |  Auxiliary   |   [Quickrundown](https://github.com/icebearfriend/Quickrundown)  |   Utilizing QRD will allow an operator to quickly characterize what processes are both known and unknown on a host through the use of colors and notes about the processes displayed.     |  ![](https://img.shields.io/github/stars/icebearfriend/Quickrundown)   | ![](https://img.shields.io/github/languages/top/icebearfriend/Quickrundown)     |
 |  Auxiliary   |   [Phant0m_cobaltstrike](https://github.com/p292/Phant0m_cobaltstrike)  |   This script walks thread stacks of Event Log Service process (spesific svchost.exe) and identify Event Log Threads to kill Event Log Service Threads. So the system will not be able to collect logs and at the same time the Event Log Service will appear to be running.  |  ![](https://img.shields.io/github/stars/p292/Phant0m_cobaltstrike)   | ![](https://img.shields.io/github/languages/top/p292/Phant0m_cobaltstrike)     |
@@ -155,6 +180,9 @@
 |  Auxiliary   |   [CobaltStrikeParser](https://github.com/Sentinel-One/CobaltStrikeParser)  | Python parser for CobaltStrike Beacon's configuration |  ![](https://img.shields.io/github/stars/Sentinel-One/CobaltStrikeParser)   | ![](https://img.shields.io/github/languages/top/Sentinel-One/CobaltStrikeParser)     |
 |  Auxiliary   |   [fakelogonscreen](https://github.com/bitsadmin/fakelogonscreen)  | FakeLogonScreen is a utility to fake the Windows logon screen in order to obtain the user's password. |  ![](https://img.shields.io/github/stars/bitsadmin/fakelogonscreen)   | ![](https://img.shields.io/github/languages/top/bitsadmin/fakelogonscreen)     |
 |  Auxiliary   |   [SyncDog](https://github.com/Lz1y/SyncDog)  | Make bloodhound sync with cobaltstrike. |  ![](https://img.shields.io/github/stars/Lz1y/SyncDog)   | ![](https://img.shields.io/github/languages/top/Lz1y/SyncDog)     |
+|  Auxiliary   |   [360SafeBrowsergetpass](https://github.com/hayasec/360SafeBrowsergetpass)  | 一键辅助抓取360安全浏览器密码的CobaltStrike脚本，通过下载浏览器数据库、记录密钥来离线解密浏览器密码。 |  ![](https://img.shields.io/github/stars/hayasec/360SafeBrowsergetpass)   | ![](https://img.shields.io/github/languages/top/hayasec/360SafeBrowsergetpass)     |
+|  Auxiliary   |   [SharpDecryptPwd](https://github.com/uknowsec/SharpDecryptPwd)  | 对密码已保存在 Windwos 系统上的部分程序进行解析,包括：Navicat,TeamViewer,FileZilla,WinSCP,Xmangager系列产品（Xshell,Xftp)。 |  ![](https://img.shields.io/github/stars/uknowsec/SharpDecryptPwd)   | ![](https://img.shields.io/github/languages/top/uknowsec/SharpDecryptPwd)     |
+|  Auxiliary   |   [List-GitHubAssembly](https://github.com/mdsecactivebreach/Execute-GithubAssembly-Aggressor)  | Fetch a list of avaialble artifacts from the configured GitHub repo. |  ![](https://img.shields.io/github/stars/mdsecactivebreach/Execute-GithubAssembly-Aggressor)   | ![](https://img.shields.io/github/languages/top/mdsecactivebreach/Execute-GithubAssembly-Aggressor)     |
 |  Synthesis   |   [Erebus](https://github.com/DeEpinGh0st/Erebus)  |   CobaltStrike4.x --> Erebus CobaltStrike后渗透测试插件   |  ![](https://img.shields.io/github/stars/DeEpinGh0st/Erebus)   | ![](https://img.shields.io/github/languages/top/DeEpinGh0st/Erebus)     |
 |  Synthesis   |   [Cobalt-Strike-Aggressor-Scripts](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts)  |   CobaltStrike后渗透测试插件集合 [Usage](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts/wiki/Usage)   |  ![](https://img.shields.io/github/stars/timwhitez/Cobalt-Strike-Aggressor-Scripts)   | ![](https://img.shields.io/github/languages/top/timwhitez/Cobalt-Strike-Aggressor-Scripts)     |
 |  Synthesis   |   [AggressorScripts](https://github.com/bluscreenofjeff/AggressorScripts)  |   Aggressor scripts for use with Cobalt Strike 3.0+   |  ![](https://img.shields.io/github/stars/bluscreenofjeff/AggressorScripts)   | ![](https://img.shields.io/github/languages/top/bluscreenofjeff/AggressorScripts)     |
@@ -188,16 +216,27 @@
 |  Synthesis   |   [cobalt_strike_extension_kit](https://github.com/josephkingstone/cobalt_strike_extension_kit)  | 集成了SharpHound,SharpRDP,SharpWMI等在内的各种内网工具，使用AggressorScripts构建workflow |  ![](https://img.shields.io/github/stars/josephkingstone/cobalt_strike_extension_kit)   | ![](https://img.shields.io/github/languages/top/josephkingstone/cobalt_strike_extension_kit)     |
 |  Synthesis   |   [cobaltstrike](https://github.com/wafinfo/cobaltstrike)  | 具备域管理员定位、域信息收集、权限维持、内网扫描、数据库hash dump、Everything内网搜索文件等功能的插件集合 |  ![](https://img.shields.io/github/stars/wafinfo/cobaltstrike)   | ![](https://img.shields.io/github/languages/top/wafinfo/cobaltstrike)     |
 |  Synthesis   |   [365CobaltStrike](https://github.com/0e0w/CobaltStrike)  | 兼容CobaltStrike4.0的插件集合 |  ![](https://img.shields.io/github/stars/0e0w/CobaltStrike)   | ![](https://img.shields.io/github/languages/top/0e0w/CobaltStrike)     |
+|  Synthesis   |   [CSPlugins](https://github.com/Al1ex/CSPlugins)  | 一个对Cobaltstrike第三方插件进行收集的项目，持续更新。 |  ![](https://img.shields.io/github/stars/Al1ex/CSPlugins)   | ![](https://img.shields.io/github/languages/top/Al1ex/CSPlugins)     |
 |  Synthesis   |   [CobaltStrike-xor](https://github.com/WBGlIl/CobaltStrike-file)  | third-party --> vnc_x86_dll and vnc_x64_dll |  ![](https://img.shields.io/github/stars/WBGlIl/CobaltStrike-file)   | ![](https://img.shields.io/github/languages/top/WBGlIl/CobaltStrike-file)     |
+|  Synthesis   |   [Z1-AggressorScripts](https://github.com/z1un/Z1-AggressorScripts)  | 适用于Cobalt Strike 3.x & 4.x 的内网渗透插件集合 |  ![](https://img.shields.io/github/stars/z1un/Z1-AggressorScripts)   | ![](https://img.shields.io/github/languages/top/z1un/Z1-AggressorScripts)     |
 
 ### 0x05 Related Tools
 |  Type   |   Name  |  Description   |  Popularity   |   Language  |
 |:---:|:---:|:---:|:---:|:---:|
 |  AntiCobaltStrike   |   [cobaltstrike_brute](https://github.com/isafe/cobaltstrike_brute)  |   Cobalt Strike Team Server Password Brute Forcer  |  ![](https://img.shields.io/github/stars/isafe/cobaltstrike_brute)   | ![](https://img.shields.io/github/languages/top/isafe/cobaltstrike_brute)     |
 |  AntiCobaltStrike   |   [CobaltStrikeScan](https://github.com/Apr4h/CobaltStrikeScan)  |   Scan files or process memory for Cobalt Strike beacons and parse their configuration.  |  ![](https://img.shields.io/github/stars/Apr4h/CobaltStrikeScan)   | ![](https://img.shields.io/github/languages/top/Apr4h/CobaltStrikeScan)     |
-|  SourceCode   |   [CobaltStrike](https://github.com/Freakboy/CobaltStrike)  | CobaltStrike's source code,tested some code and function. |  ![](https://img.shields.io/github/stars/Freakboy/CobaltStrike)   | ![](https://img.shields.io/github/languages/top/Freakboy/CobaltStrike)     |
-|  Auxiliary   |   [pycobalt](https://github.com/dcsync/pycobalt)  | PyCobalt is a Python API for Cobalt Strike. |  ![](https://img.shields.io/github/stars/dcsync/pycobalt)   | ![](https://img.shields.io/github/languages/top/dcsync/pycobalt)     |
+|  AntiCobaltStrike   |   [grab_beacon_config](https://github.com/whickey-r7/grab_beacon_config)  |   Simple PoC script to scan and acquire CobaltStrike Beacon configurations.  |  ![](https://img.shields.io/github/stars/whickey-r7/grab_beacon_config)   | ![](https://img.shields.io/github/languages/top/whickey-r7/grab_beacon_config)     |
+|  AntiCobaltStrike   |   [C2-JARM](https://github.com/cedowens/C2-JARM)  | 通过ssl实现所产生的JARM hash来识别不同的c2，例如CobaltStrike  |  ![](https://img.shields.io/github/stars/cedowens/C2-JARM)   | ![](https://img.shields.io/github/languages/top/cedowens/C2-JARM)     |
+|  AntiCobaltStrike   |   [DetectCobaltStomp](https://github.com/slaeryan/DetectCobaltStomp)  | A quick(and perhaps dirty!) PoC tool to detect Module Stomping as implemented by Cobalt Strike with moderate to high confidence  |  ![](https://img.shields.io/github/stars/slaeryan/DetectCobaltStomp)   | ![](https://img.shields.io/github/languages/top/slaeryan/DetectCobaltStomp)     |
+|  AntiCobaltStrike   |   [cobaltstrike](https://github.com/Te-k/cobaltstrike)  |  Analyzing Cobalt Strike for Fun and Profit   |  ![](https://img.shields.io/github/stars/Te-k/cobaltstrike)   | ![](https://img.shields.io/github/languages/top/Te-k/cobaltstrike)     |
+|  Analysis  |   [CS_Decrypt](https://github.com/WBGlIl/CS_Decrypt)  | 解密可以帮助你理解cs beacon通信原理，但注意密钥是在本地teamserver中  |  ![](https://img.shields.io/github/stars/WBGlIl/CS_Decrypt)   | ![](https://img.shields.io/github/languages/top/WBGlIl/CS_Decrypt)     |
+|  Analysis  |   [Beacon](https://github.com/SecIdiot/Beacon)  | Open Source Cobalt Strike Beacon. Unreleased, in research stages  |  ![](https://img.shields.io/github/stars/SecIdiot/Beacon)   | ![](https://img.shields.io/github/languages/top/SecIdiot/Beacon)     |
+|  Analysis  |   [PyBeacon](https://github.com/nccgroup/pybeacon)  | A collection of scripts for dealing with Cobalt Strike beacons in Python Resources  |  ![](https://img.shields.io/github/stars/nccgroup/pybeacon)   | ![](https://img.shields.io/github/languages/top/nccgroup/pybeacon)     |
+|  BypassAV   |   [Cooolis-ms](https://github.com/Rvn0xsy/Cooolis-ms)  | Cooolis-ms是一个包含了Metasploit Payload Loader、Cobalt Strike External C2 Loader、Reflective DLL injection的代码执行工具，它的定位在于能够在静态查杀上规避一些我们将要执行且含有特征的代码，帮助红队人员更方便快捷的从Web容器环境切换到C2环境进一步进行工作。 |  ![](https://img.shields.io/github/stars/Rvn0xsy/Cooolis-ms)   | ![](https://img.shields.io/github/languages/top/Rvn0xsy/Cooolis-ms)     |
+|  Auxiliary   |   [CobaltPatch](https://github.com/SecIdiot/CobaltPatch)  | PyCobalt is a Python API for Cobalt Strike. |  ![](https://img.shields.io/github/stars/SecIdiot/CobaltPatch)   | ![](https://img.shields.io/github/languages/top/SecIdiot/CobaltPatch)     |
+|  Auxiliary   |   [pycobalt](https://github.com/dcsync/pycobalt)  | Cobalt Strike Malleable Profile Inline Patch Template: A Position Independent Code (PIC) Code Template For Creating Shellcode That Can Be Appended In Stage / Post-Ex Blocks. Made for C Programmers. |  ![](https://img.shields.io/github/stars/dcsync/pycobalt)   | ![](https://img.shields.io/github/languages/top/dcsync/pycobalt)     |
 |  Auxiliary   |   [redshell](https://github.com/Verizon/redshell)  | An interactive command prompt that executes commands through proxychains and automatically logs them on a Cobalt Strike team server. |  ![](https://img.shields.io/github/stars/Verizon/redshell)   | ![](https://img.shields.io/github/languages/top/Verizon/redshell)     |
+|  Auxiliary   |   [CobaltStrikeToGhostWriter](https://github.com/hausec/CobaltStrikeToGhostWriter)  | Log converter from CS logs to a CSV in Ghostwriter's operation log format. |  ![](https://img.shields.io/github/stars/hausec/CobaltStrikeToGhostWriter)   | ![](https://img.shields.io/github/languages/top/hausec/CobaltStrikeToGhostWriter)  |
 |  Auxiliary   |   [Ansible-Cobalt-Strike](https://github.com/jfmaes/Ansible-Cobalt-Strike)  | An Ansible role to install cobalt-strike on debian based architectures, let's be honest it's for kali. |  ![](https://img.shields.io/github/stars/jfmaes/Ansible-Cobalt-Strike)   | ![](https://img.shields.io/github/languages/top/jfmaes/Ansible-Cobalt-Strike)     |
 |  AVBypass   |   [UrbanBishopLocal](https://github.com/slyd0g/UrbanBishopLocal)  | A port of FuzzySecurity's [UrbanBishop](https://github.com/FuzzySecurity/Sharp-Suite#urbanbishop) project for inline shellcode execution. |  ![](https://img.shields.io/github/stars/slyd0g/UrbanBishopLocal)   | ![](https://img.shields.io/github/languages/top/slyd0g/UrbanBishopLocal)     |
 |  Synthesis   |   [redi](https://github.com/taherio/redi)  | Automated script for setting up CobaltStrike redirectors (nginx reverse proxy, letsencrypt) |  ![](https://img.shields.io/github/stars/taherio/redi)   | ![](https://img.shields.io/github/languages/top/taherio/redi)     |
